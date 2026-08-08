@@ -141,7 +141,7 @@ machine_select( libspectrum_machine type )
 
   /* We don't want to have to deal with screen size changes in the movie code
      and recording movies where we change machines seems pretty obscure */
-  movie_stop();
+  fuse_movie_stop();
 
   for( i=0; i < machine_count; i++ ) {
     if( machine_types[i]->machine == type ) {

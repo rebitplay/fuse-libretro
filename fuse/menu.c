@@ -241,7 +241,7 @@ MENU_CALLBACK( menu_file_movie_stop )
 {
   ui_widget_finish();
 
-  movie_stop();
+  fuse_movie_stop();
 }
 
 MENU_CALLBACK( menu_file_movie_pause )

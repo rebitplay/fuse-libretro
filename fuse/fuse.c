@@ -997,7 +997,7 @@ do_start_files( start_files_t *start_files )
 /* Tidy-up function called at end of emulation */
 static int fuse_end(void)
 {
-  movie_stop();		/* stop movie recording */
+  fuse_movie_stop();		/* stop movie recording */
 
   startup_manager_run_end();
 
